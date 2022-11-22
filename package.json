@@ -1,0 +1,20 @@
+{
+  "name": "e2-crud-users",
+  "version": "1.0.0",
+  "description": "1. Crea y despliega tu servidor, utiliza las librerias de express y nodemon.\r 2. En base al modelo MVC, deberas crear los siguientes 3 archivos\r     1. users.controllers.js\r     2. users.services.js\r     3. users.router.js\r 3. Deberas recibir los siguientes verbos a las siguientes rutas\r     1. /users \r         1. GET → Al hacer esta peticion deberas de retornar todos los usuarios\r         2. POST → Al hacer esta peticion, manejaras el req del cliente y crearas un nuevo usuario\r     2. /users/:id\r         1. GET → Al hacer esta petición deberas retornar el usuario con el ID en especifico que recibes desde parametros\r 4. En tu base de datos ficticia, deberas almacenar un arreglo de objetos, los objetos de los usuarios deberan tener lo siguiente:",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
